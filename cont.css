@@ -1,0 +1,123 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Contact Us Section */
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.contact-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contact-us h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-details .detail {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}
+
+/* Animation for text */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-text {
+    animation: fadeInUp 1s ease-out;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer .container {
+    padding: 0 20px;
+}

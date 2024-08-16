@@ -1,0 +1,98 @@
+/* Reset some default styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    font-family: la;
+    color: black;
+}
+
+/* Header styles */
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.about-us .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Animation for text */
+@keyframes comeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-text {
+    animation: comeUp 1s ease-out;
+    opacity: 1; /* Ensure text starts invisible */
+}
+
+/* Footer styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .container {
+    padding: 0 20px;
+}

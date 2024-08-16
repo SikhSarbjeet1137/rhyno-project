@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Model</title>
+    <link rel="stylesheet" href="buy.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Book Your Ride</h1>
+        </header>
+        <main>
+            <form id="prebook-form">
+                <div class="form-group">
+                    <label for="model-selection">Select Model:</label>
+                    <select id="model-selection" name="model">
+                        <option value="100000">SE03 Lite: - $100,000</option>
+                        <option value="150000">SE03:   - $150,000</option>
+                        <option value="200000">SE03 Max: - $200,000</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="amount">Amount:</label>
+                    <input type="text" id="amount" name="amount" readonly>
+                </div>
+
+                <div class="form-group">
+                    <label for="payment-method">Payment Method:</label>
+                    <select id="payment-method" name="payment-method">
+                        <option value="cod">Cash on Delivery (COD)</option>
+                        <option value="upi">UPI</option>
+                    </select>
+                </div>
+
+                <div id="upi-options" class="upi-options">
+                    <label>Select UPI Option:</label>
+                    <div class="upi-methods">
+                        <label><input type="checkbox" name="upi-option" value="cards"> Cards</label>
+                        <label><input type="checkbox" name="upi-option" value="paypal"> PayPal</label>
+                        <label><input type="checkbox" name="upi-option" value="netbanking"> Net Banking</label>
+                    </div>
+                </div>
+
+                <button type="submit" class="prebook-btn">Pre-Book Now</button>
+            </form>
+        </main>
+    </div>
+
+    <script src="buy.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+ <div class="social-media-bar">
+        <a href="https://facebook.com" target="_blank">
+            <img src="facebook-icon.png" alt="Facebook">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="twitter-icon.png" alt="Twitter">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="instagram-icon.png" alt="Instagram">
+        </a>
+        <a href="https://linkedin.com" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn">
+        </a>
+    </div>
+
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-solid fa-x"></i>
+    <i class="fa-brands fa-instagram">
+    <i class="fa-brands fa-linkedin">
+  
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rhyno Ride Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">Rhyno</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pre-payment">Pre Payment</a></li>
+                <li><a href="#rentals">Rentals</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Let's Elevate Your Ride Experience With Rhyno – Where Superiority Meets <span id="changing-word">Style</span>.</h1>
+    </section>
+
+    <!-- USP Section -->
+    <section class="usp-carousel">
+        <div class="carousel">
+            <div class="carousel-item active">
+                <h2>Unmatched Performance</h2>
+                <p>Experience the ultimate in speed and reliability with Rhyno.</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Luxury Comfort</h2>
+                <p>Our vehicles are designed for the most comfortable ride.</p>
+            </div>
+            <div class="carousel-item">
+                <h2>Innovative Technology</h2>
+                <p>Stay ahead with cutting-edge features in every ride.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vehicle Gallery Section -->
+    <section class="vehicle-gallery">
+        <div class="vehicle-photo">
+            <img src="rhyno final.95.png"Vehicle 1">
+            <div class="vehicle-name">Vehicle 1</div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-us">
+        <h2>About Us</h2>
+        <p>Rhyno is committed to providing the best vehicles with a blend of style, performance, and innovation. Our goal is to enhance your driving experience, offering a seamless combination of elegance, minimalism, and comfort.</p>
+    </section>
+
+    <!-- Floating Pre-Book Button -->
+    <div class="pre-book-now">
+        <a href="#pre-book">Pre-Book Now</a>
+    </div>
+
+    <section id="contact-us" class="contact-us">
+        <h2>Contact Us</h2>
+        <p>We'd love to hear from you! Whether you have questions about our vehicles, need support, or just want to chat, feel free to reach out to us.</p>
+        <p><strong>Address:</strong> 1234 Rhyno Street, Auto City, TX 75000</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> info@rhyno.com</p>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-media-icons">
+                    <a href="#"><img src="facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="x.png" alt="Twitter"></a>
+                    <a href="#"><img src="insta.jpg" alt="Instagram"></a>
+                    <a href="#"><img src="link.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="java.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    padding: 20px;
+    color: #fff;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section Styles */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #000;
+    color: #fff;
+}
+
+#changing-word {
+    color: #ff0;
+    font-weight: bold;
+}
+
+/* USP Carousel Styles */
+.usp-carousel {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.carousel {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 200px;
+}
+
+.carousel-item {
+    flex: 1;
+    min-width: 100%;
+    transition: transform 0.5s ease;
+    text-align: center;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.carousel-item h2 {
+    color: #000;
+}
+
+.carousel-item p {
+    color: #333;
+}
+
+/* Vehicle Gallery Styles */
+.vehicle-gallery {
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+    background-color: #f7f7f7;
+}
+
+.vehicle-photo {
+    position: relative;
+    overflow: hidden;
+}
+
+.vehicle-photo img {
+    width: 100%;
+    transition: 0.3s ease;
+}
+
+.vehicle-photo:hover img {
+    filter: blur(5px);
+}
+
+.vehicle-name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: none;
+}
+
+.vehicle-photo:hover .vehicle-name {
+    display: block;
+}
+
+/* About Us Section Styles */
+.about-us {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Pre-Book Button Styles */
+.pre-book-now {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.pre-book-now a {
+    color: #000;
+    text-decoration: none;
+}
+/* Contact Us Section Styles */
+.contact-us {
+    padding: 50px;
+    background-color:black;
+    text-align: center;
+}
+
+.contact-us h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color:white;
+}
+
+.contact-us p {
+    font-size: 18px;
+    color:white;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 30%;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-column p, .footer-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-media-icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+// Rotating Words in Hero Section
+const words = ['Style', 'Elegance', 'Minimalism', 'Comfort'];
+let index = 0;
+const changingWordElement = document.getElementById('changing-word');
+
+setInterval(() => {
+    index = (index + 1) % words.length;
+    changingWordElement.textContent = words[index];
+}, 3000);
+
+// Carousel Effect in USP Section
+const carouselItems = document.querySelectorAll('.carousel-item');
+let carouselIndex = 0;
+
+function showCarouselItem(index) {
+    carouselItems.forEach((item, i) => {
+        item.style.transform = `translateX(-${index * 100}%)`;
+    });
+}
+
+setInterval(() => {
+    carouselIndex = (carouselIndex + 1) % carouselItems.length;
+    showCarouselItem(carouselIndex);
+}, 3000);
